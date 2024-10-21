@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir e Ordenar Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <label for="numberInput">Digite um número inteiro:</label>
+        <input type="number" id="numberInput">
+        
+        <button onclick="inserirNumero()">Inserir</button>
+        <button onclick="ordenarVetor()">Ordenar</button>
+        
+        <div class="vaiporra">
+            <label>Lista Original:</label>
+            <div id="listaOriginal"></div> 
+        </div>
+        
+        <div class="vaiporra">
+            <label>Lista Ordenada:</label>
+            <div id="listaOrdenada"></div> 
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
